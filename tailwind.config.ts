@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1777381949480466141.html"
 	],
 	prefix: "",
 	theme: {
@@ -18,6 +19,12 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				cinzel: ["'Cinzel'", "serif"],
+				"cinzel-deco": ["'Cinzel Decorative'", "serif"],
+				fell: ["'IM Fell English'", "serif"],
+				cormorant: ["'Cormorant Garamond'", "serif"],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
